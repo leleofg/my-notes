@@ -1,0 +1,1 @@
+O ingress é o que responde para aplicação externamente no kubernetes
