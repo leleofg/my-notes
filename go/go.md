@@ -1,10 +1,10 @@
-Variáveis:
+**Variáveis:**
 
 * :=    - utilizado para criar novas variáveis, dentro de code blocks
 * =     - para atribuir valores e variáveis já existentes
 * var   - utilizado para criar novas variáveis, não precisa estar dentro de code blocks
 
-Exemplos:
+*Exemplos:*
 
 ```
 package main
@@ -40,7 +40,7 @@ func main() {
 }
 ```
 
-Tipos:
+**Tipos:**
 
 * Tipos em GO são estáticos, ou seja, declarou uma variável de um tipo, não tem como reatribuir ela a outro tipo
 
@@ -57,7 +57,7 @@ Tipos de dados compostos:
 * struct
 * map
 
-Retorno de função:
+**Retorno de função:**
 
 ```
 package main
@@ -95,7 +95,7 @@ string interpretadas = "oi \n tudo bom?\t simm"
 
 string raw = `"oi \n tudo bom?\t simm"`
 
-Criando seu próprio tipo no go:
+**Criando seu próprio tipo no go:**
 
 ```
 package main
