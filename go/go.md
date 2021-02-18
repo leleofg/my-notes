@@ -23,7 +23,7 @@ func main() {
 }
 ```
 
-Não da pra fazer atribuição de valor em variáveis declaradas com var fora e qualquer scopo, ex:
+Não da pra fazer atribuição de valor em variáveis declaradas com var fora de scopo, ex:
 
 ```
 package main
