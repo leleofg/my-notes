@@ -112,3 +112,45 @@ func main() {
 }
 ```
 
+**Conversão de tipos:**
+
+*o tipo hotdog é gerado a partir do tipo int, mas quando atribuimos uma variavel do tipo hotdog em uma variavel do tipo int isso não funciona,
+porrque os tipos são diferentes. Segue exemplo do erro abaixo:*
+
+```
+package main
+
+import (
+	"fmt"
+)
+
+type hotdog int
+
+var b hotdog = 10
+
+func main() {
+	a := 10
+	a = b // cannot use b (type hotdog) as type int in assignment
+	fmt.Printf("%v\n", a)
+}
+```
+
+*Para resolver isso iremos usar conversão de tipo:*
+
+```
+package main
+
+import (
+	"fmt"
+)
+
+type hotdog int
+
+var b hotdog = 10
+
+func main() {
+	a := 10
+	a = int(b)
+	fmt.Printf("%v\n", a)
+}
+```
