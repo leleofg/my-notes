@@ -154,3 +154,79 @@ func main() {
 	fmt.Printf("%v\n", a)
 }
 ```
+
+*for*
+
+```
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	for x := 0; x < 10; x++ {
+		fmt.Println(x)
+	}
+}
+```
+
+```
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+
+    x := 0
+
+	for x < 10 {
+		fmt.Println(x)
+        x++
+	}
+}
+```
+
+*array*
+
+```
+package main
+
+import (
+	"fmt"
+)
+
+var x [5]int
+
+func main() {
+	x[0] = 1
+	x[1] = 2
+    array := [5]int{1, 2, 3, 4, 5}
+	fmt.Println(x[0], x[1])
+	fmt.Println(x)
+    fmt.Println(len(x))
+}
+```
+
+*slice*
+
+```
+package main
+
+import (
+	"fmt"
+)
+
+var x [5]int
+
+func main() {
+	x := []int{1, 2, 3, 4, 5}
+    fmt.Println(x)
+
+    y := append(x, 6)
+    fmt.Println(y)
+}
+```
+
